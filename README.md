@@ -1,2 +1,2 @@
-![android](ext/android.gif)
+![android](ext/android.gif?row=true)
 
