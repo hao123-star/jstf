@@ -1,2 +1,2 @@
-![android](ext/android.gif?row=true)
+<img src="ext/android.gif" alt="android" style="zoom:130%;" />
 
