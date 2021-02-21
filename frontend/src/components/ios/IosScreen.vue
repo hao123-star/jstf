@@ -389,7 +389,7 @@ export default {
       );
 
       let msg = {
-          'type': 'iosTouchMsg',
+          'type': 'touchMsg',
           'action': 'mouseClick',
           'x': (scaled.xP * this.phone.screenWidth).toFixed(0),
           'y': (scaled.yP * this.phone.screenHeight).toFixed(0),
@@ -423,7 +423,7 @@ export default {
         }
       } else {
         let msg = {
-          'type': 'iosTouchMsg',
+          'type': 'touchMsg',
           'action': 'mouseMove',
           'fromX': this.fromPoint.x,
           'fromY': this.fromPoint.y,
@@ -498,7 +498,7 @@ export default {
 
       if (this.fromPoint.x != this.toPoint.x || this.fromPoint.y != this.toPoint.y) {
         let msg = {
-          'type': 'iosTouchMsg',
+          'type': 'touchMsg',
           'action': 'mouseMove',
           'fromX': this.fromPoint.x,
           'fromY': this.fromPoint.y,
@@ -598,7 +598,7 @@ export default {
 
     simulateHomeScreen() {
       let msg = {
-        'type': 'iosTouchMsg',
+        'type': 'touchMsg',
         'action': 'homeScreen'
       };
 
